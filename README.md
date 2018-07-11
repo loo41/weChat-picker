@@ -72,5 +72,7 @@
 | sureStyle-cancelStyle | String      | 否             | 按钮样式             |
 
 ## 其他
+```
 1: pickData对象可以任意定制，只要和是对象-数组既可
 2: open参数记得每次回调完，一定设置为false，不然下次就打不开
+```
