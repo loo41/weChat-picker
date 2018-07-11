@@ -36,6 +36,7 @@ Component({
     pickerAnimation: {},
     pickeDate: [],
     listData: [],
+    value: [],
     info: {
       H: '',
       W: ''
@@ -70,7 +71,7 @@ Component({
       Object.values(this.data.pickData).forEach((item, i) => {
         pickeDate[i] = item[val[i]]
       })
-      this.setData({pickeDate})
+      this.setData({pickeDate, value: val})
     },
     _surePicker () {
       let {pickeDate} = this.data

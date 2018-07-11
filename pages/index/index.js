@@ -33,7 +33,7 @@ Page({
     this.setData({openPicker: false})
     console.log('点击了取消')
   },
-  defaultTap () {
+  _openPick () {
     this.setData({openPicker: true})
   }
 })
