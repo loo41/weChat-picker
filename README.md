@@ -70,6 +70,8 @@
 | pickData        | Object            | 是            | 数据对象, 参考使用    |
 | open            | Boolean           | 是             | 控制开启或关闭picker |
 | sureStyle-cancelStyle | String      | 否             | 按钮样式             |
+|maskStyle        |String             | 否             | 设置蒙层的类名      |
+|indicatorStyle   | String            | 否             | 设置选择器中间选中框的样式 |
 
 ## 其他
 ```
