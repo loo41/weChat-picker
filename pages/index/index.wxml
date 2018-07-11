@@ -10,6 +10,8 @@
       open="{{openPicker}}"
       sureStyle=""
       cancelStyle=""
+      indicatorStyle=""
+      maskStyle=""
     />
   </view>
 </view>

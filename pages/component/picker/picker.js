@@ -28,7 +28,15 @@ Component({
           this._openClosePicker()
         }
       }
-    }
+    },
+    maskStyle: {
+      type: String,
+      value: ''
+    },
+    indicatorStyle: {
+      type: String,
+      value: ''
+    },
   },
   data: {
     isOpen: false,
