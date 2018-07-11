@@ -1,7 +1,9 @@
 # weChat-picker
 微信小程序下弹选择器
 
-
+## 为什么写这个
+  官方的的太丑了
+  
 ## 组件的引入方式
   [官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)
 
