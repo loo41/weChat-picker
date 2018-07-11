@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <button type="default" size="defaultSize"  bindtap="defaultTap" >打开</button>
+  <text style="margin-top: 20px;">{{value}}</text>
+  <view>
+    <picker 
+      bind:sure="_sure" 
+      bind:close="_close" 
+      pickData="{{listData}}" 
+      open="{{openPicker}}"
+      sureStyle=""
+      cancelStyle=""
+    />
+  </view>
+</view>

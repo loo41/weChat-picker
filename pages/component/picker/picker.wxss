@@ -1,0 +1,43 @@
+
+/**picker**/
+.pick-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.picker-box {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  bottom: -100%;
+}
+.picker-style {
+  position: absolute;
+  z-index: 11;
+  background: white;
+  bottom: 0;
+  bottom: -100%;
+}
+.picker-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picker-but {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 20px 20rpx;
+  padding-bottom: 0rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.picker-but view {
+  display: flex;
+  box-sizing: border-box;
+  font-size: 36rpx;
+  justify-content: center;
+  align-items: center;
+  height: 50rpx;
+  width: 100rpx;
+}

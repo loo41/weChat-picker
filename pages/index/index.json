@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "picker测试",
+  "usingComponents": {
+    "picker": "/pages/component/picker/picker"
+  }
+}

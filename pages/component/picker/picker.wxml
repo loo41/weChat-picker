@@ -1,0 +1,17 @@
+<view wx:if="{{isOpen}}" class="pick-box">
+  <view class="picker-box" animation="{{pickerBoxAnimation}}" style="height: {{info.H}}px; width: {{info.W}}px;">
+  </view>
+  <view class="picker-style" animation="{{pickerAnimation}}" style="height: {{info.H/2}}px; width: {{info.W}}px;">
+    <view class="picker-but">
+      <view bindtap="_closePicker" style="{{cancelStyle}}" hover-class="active-style">取消</view>
+      <view bindtap="_surePicker" style="{{sureStyle}}" hover-class="active-style">确定</view>
+    </view>
+    <picker-view indicator-style="height: 50px;" style="height: 80%;" value="{{value}}" bindchange="_bindChange">
+      <picker-view-column wx:for="{{listData}}" wx:for-index="idx" wx:key="*this">
+        <view wx:for="{{item}}" wx:for-item="less" class="picker-line" wx:for-index="idx" wx:key="*this" style="line-height: 50px">
+          {{less}}
+        </view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
