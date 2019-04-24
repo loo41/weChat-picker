@@ -10,7 +10,7 @@
 ## 效果
   ![image](https://github.com/loo41/weChat-picker/blob/master/doc/picker.gif)
   
-## 引入
+## 组件引入
 ```txt
   将/pages/component/picker按组件引入既可以
 ```
